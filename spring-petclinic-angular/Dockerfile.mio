@@ -1,0 +1,17 @@
+### STAGE 1: Build ###
+
+FROM node:10.15.3-alpine AS build  
+COPY . /workspace/
+
+RUN npm uninstall -g angular-cli @angular/cli
+RUN npm install -g @angular/cli@latest
+RUN npm install
+RUN ng build --output-path=dist
+
+### STAGE 2: Run ###
+
+FROM nginx:1.17.6-alpine
+COPY --from=build /workspace/dist /usr/share/nginx/html
+COPY --from=build /workspace/nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
+
