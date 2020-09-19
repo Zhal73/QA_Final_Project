@@ -1,21 +1,17 @@
 pipeline {
     agent any
     stages {
-        stage('Get Repo') {
-            sh 'chmod +x ./scripts/*'
-            sh './scripts/getrepo.sh'
-        }
         stage('Prerequisites') {
+            sh 'chmod +x ./scripts/*'
             sh './scripts/installs.sh'
-            sh './scripts/maven.sh'
         }
 
-        stage('') {
-            
+        stage('Testing') {
+            sh './scripts/testing.sh'
         }
 
-        stage('') {
-            
+        stage('Build and Deploy') {
+            sh './scripts/build.sh'
         }
     }
 }
