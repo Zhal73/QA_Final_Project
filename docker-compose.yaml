@@ -1,14 +1,14 @@
 version: '3.7'
 services:
   backend:
-    image: pet-clinic-rest
+    image: zhal73/pet-clinic-rest
     build: ./spring-petclinic-rest
     ports:
       - target: 9966      
         published: 9966
         protocol: tcp
   frontend:
-    image: pet-clinic-client
+    image: zhal73/pet-clinic-client
     build: ./spring-petclinic-angular
     ports:
       - target: 8080
