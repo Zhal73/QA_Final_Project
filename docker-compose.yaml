@@ -11,14 +11,14 @@ services:
       source: ./nginx/nginx.conf
       target: /etc/nginx/nginx.conf
   backend:
-    image: zhal73/pet-clinic-rest
+    image: qajulyteam2/pet-clinic-rest
     build: ./spring-petclinic-rest
     ports:
       - target: 9966      
         published: 9966
         protocol: tcp
   frontend:
-    image: zhal73/pet-clinic-client
+    image: qajulyteam2/pet-clinic-client
     build: ./spring-petclinic-angular
     ports:
       - target: 8080
