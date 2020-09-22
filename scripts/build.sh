@@ -8,4 +8,7 @@ docker login
 docker-compose build
 docker push qajulyteam2/spring-petclinic-angular:latest
 docker push qajulyteam2/spring-petclinic-rest:latest
-docker stack deploy --compose-file docker-compose.yaml petclinic
+
+cd kubernetes
+./start.sh
+cd ..
