@@ -18,3 +18,9 @@
       - kubeadm
       - kubectl
       - kubernetes-cni
+
+- name: Install Kubectl
+  get_url:
+    url : https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+    dest: /usr/local/bin/kubectl
+    mode: 'u+x,g+x'
