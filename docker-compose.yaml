@@ -1,0 +1,29 @@
+version: '3.7'
+services:
+  nginx:
+    image: nginx:latest            
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+    - type: bind
+      source: ./nginx/nginx.conf
+      target: /etc/nginx/nginx.conf
+  backend:
+    image: qajulyteam2/pet-clinic-rest
+    build: ./spring-petclinic-rest
+    ports:
+      - target: 9966      
+        published: 9966
+        protocol: tcp
+    environment:
+      DB_URI: ${DB_URI}
+      DB_PASSWORD: ${DB_PASSWORD}      
+  frontend:
+    image: qajulyteam2/pet-clinic-client
+    build: ./spring-petclinic-angular
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp 
