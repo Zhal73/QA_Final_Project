@@ -1,19 +1,25 @@
 pipeline {
     agent any
     stages {
-        steps('Prerequisites') {
-            sh 'chmod +x ./scripts/*'
-            sh './scripts/installs.sh'
+        stage('Prerequisites') {
+            steps {
+                sh 'chmod +x ./scripts/*'
+                sh './scripts/installs.sh'
+            }
         }
 
-        steps('Testing') {
-            sh './scripts/testing.sh'
+        stage('Testing') {
+	    steps {
+	        sh './scripts/testing.sh'
+	    }
         }
 
-        steps('Build and Deploy') {
-            sh './scripts/terraform.sh'
-            sh './scripts/ansible.sh'
-            sh './scripts/build.sh'
+        stage('Build and Deploy') {
+	    steps {
+                sh './scripts/terraform.sh'
+                sh './scripts/ansible.sh'
+                sh './scripts/build.sh'
+	    }
         }
     }
 }
