@@ -4,7 +4,7 @@ sudo apt-get update -y
 sudo apt-get -y upgrade
 sudo apt install -y curl
 sudo apt install -y unzip wget
-sudo apt install python3-pip
+sudo apt install -y python3 python3-pip
 
 # installs git
 sudo apt-get install -y git
