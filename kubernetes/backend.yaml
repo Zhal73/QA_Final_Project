@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: zhal73/pet-clinic-rest
+        image: qajulyteam2/pet-clinic-rest
         ports:
         - containerPort: 9966
 ---
