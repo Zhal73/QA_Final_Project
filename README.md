@@ -1,4 +1,4 @@
-# QA Final Project
+# Spring Pet Clinic - QA Final Project
 _________________________________________________________________________________________________________________________________________________________________
 ## Index
 
@@ -24,6 +24,7 @@ In short, **you will be expected to deploy this application.**
 - Running costs. What are your monthly estimates and can they be improved?
 
 ### Proposed Solution
+Our team's approach to this task was agile-driven and as efficient as possible. After assigning roles within the team
 
 ### MoSCoW Prioritisation
 
