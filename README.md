@@ -54,13 +54,13 @@ ________________________________________________________________________________
     
   ![](/images/Final-Project-First-Jira-Board.png)
     
-    The intial sprint was designed to deploy the application itself, each member of the team was assigned a particular task and there were 3 standups a day in order to ensure that all tasks were being completed thoroughly and to the best of the team's ability. 
+    The initial sprint was designed to deploy the application itself, each member of the team was assigned a particular task and there were 3 standups a day in order to ensure that all tasks were being completed thoroughly and to the best of the team's ability. 
     
   - After the first sprint had been completed, with the deployment of the application fully configured, sprint 2 was intialised, which looked like this:
   
     ![](/images/secondsprint.png)
   
-    This sprint included the in-depth analysis of the final project. Once the deployment had been successful, each step had to be documented in order to show not only the process, but the progress that the team made during the course of this project. 
+    This sprint included the in-depth analysis of the final project, along with a few extensive suggestions that were added once the Sprint Review and Retrospective has been completed. Once the deployment had been successful, each step had to be documented in order to show not only the process, but the progress that the team made during the course of this project. 
     
     
 * [Git](https://github.com/Zhal73/QA_Final_Project) - VCS
