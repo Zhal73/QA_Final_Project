@@ -42,9 +42,9 @@ ________________________________________________________________________________
     
   - After the first sprint had been completed, with the deployment of the application fully configured, sprint 2 was intialised, which looked like this:
   
-  **Insert photo**
+    **Insert photo**
   
-  This sprint included the in-depth analysis of the final project. Once the deployment had been successful, each step had to be documented in order to show not only the process, but the progress that the team made during the course of this project. 
+    This sprint included the in-depth analysis of the final project. Once the deployment had been successful, each step had to be documented in order to show not only the process, but the progress that the team made during the course of this project. 
     
     
 * [Git](https://github.com/Zhal73/QA_Final_Project) - VCS
