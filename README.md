@@ -72,14 +72,18 @@ ________________________________________________________________________________
 
 ### Risk Assessment
 
+Below is the Risk Assessment that was created in association with this project:
+
 ![](/images/Risk_assessment.jpg)
 
 ### CI Pipeline
 
+Here is a diagram of the CI Pipeline that the deployment process followed:
 ![](/images/FP-Pipeline.jpg)
 
 ### AWS Pipeline
 
+This is an illustration of the infrastructure that was created using AWS:
 ![](/images/AWS_Infrastructure.png)
 _________________________________________________________________________________________________________________________________________________________________
 
