@@ -41,9 +41,11 @@ In short, **you will be expected to deploy this application.**
 ### Proposed Solution
 Our team's approach to this task was agile-driven and as efficient as possible. After assigning roles within the team, we were designated tasks that played to our strengths; for example, if a team member was particularly confident using Kuberentes, they were happily assigned that task. This planning made the project as efficient as it was, this is evident as Sprint 1 was actually completed earlier than we had previously imagined. 
 
-Incorporating agile fundamentals within this project was like second nature, almost instinctive. The planning process set out a clear plan, however this was of course adaptable and we were aware and prepared for the high possibility that this plan was to change as the project was developed. 
+Incorporating agile fundamentals within this project was like second nature, almost instinctive. The planning process set out a clear plan, however this was of course adaptable and we were aware and prepared for the high possibility that this plan was to change as the project developed.
+
 
 ### MoSCoW Prioritisation
+This acronymical form of documentation was used to order tasks and to initially meet the MVP. It's used to ensure that the essential requirements are met, so that further development can take place. The prioritisation was as follows:
 
 **Insert photo**
 _________________________________________________________________________________________________________________________________________________________________
@@ -87,6 +89,8 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________________________________________________________________________
 ## Application Deployment Process
+### Technologies Used and Overview of Development
+#### A multitude of diverse, intuitive technologies were combined in order to successfully build, develop and deliver this project.
 
 _________________________________________________________________________________________________________________________________________________________________
 ## Future Improvements
