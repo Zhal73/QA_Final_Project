@@ -95,7 +95,7 @@ ________________________________________________________________________________
 ## Testing
 Due to the nature of the project, the tests were all written previously. As a team, we just had to make sure the testing software was installed, and that all the tests ran and passed successfully. This application used **Maven** as its testing software.
 
-Our team decided to not tamper with the tests as the MVP is the priority, once this had been successful then adjustments can be made to include other forms of testing and an extensive report. However, one of the agile fundamentals is to hvae a working application over a complex one. Thus, we deemed it unwise to edit these tests as they were correctly written, and all of them passed the testing stage anyway - there was no initial need to amend them.
+Our team decided to not tamper with the tests as the MVP is the priority, once this had been successful, then adjustments can be made to include other forms of testing and even possibly an extensive report. However, one of the agile fundamentals is to have a working application over a complex one. Thus, we deemed it unwise to edit these tests as they were correctly written, and all of them passed the testing stage anyway - there was no need to amend them.
 
 _________________________________________________________________________________________________________________________________________________________________
 ## Application Deployment Process
@@ -109,7 +109,7 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________________________________________________________________________
 ## Future Improvements
-For this project, our aim was to deploy the given application. As we didn't write the application itself, it's difficult to indicate what could be improved and where. However, in terms of deployment, we agreed that if given more time to perfect this deployment process, we would implement integration testing. Through the use of selenium, this is a way of ensuring that every aspect of the application is accounted for, and that there are no faults within the application itself.
+For this project, our aim was to deploy the given application. As we didn't write the application itself, it's difficult to indicate what could be improved and where. However, in terms of deployment, we agreed that if given more time to perfect this deployment process, we would implement integration testing. Through the use of Selenium, this is a way of ensuring that every aspect of the application is accounted for, and that there are no faults within the application itself.
 _________________________________________________________________________________________________________________________________________________________________
 ## Honorable Mentions
 * QA's own Luke Benson & Harry Volker - Trainers
