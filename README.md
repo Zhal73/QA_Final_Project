@@ -107,8 +107,42 @@ Our team decided to not tamper with the tests as the MVP is the priority, once t
 _________________________________________________________________________________________________________________________________________________________________
 ## Application Deployment Process
 #### Prerequisites
+* 1 GCP Virtual Machine (We used Ubuntu 20.04 LTS) 
+* 1 GCP MySQL Database (We used MySQl 5.7)
+* VM with port 8080 access for Jenkins
+* Enable connection on DB using VM's IP Address
 
 #### Installation
+* [Install Jenkins on VM](https://www.jenkins.io/doc/book/installing/#linux)
+* Add sudo privileges for Jenkins using:
+  ```bash
+  sudo visudo
+  ```
+  Inside the sudoers file, add the following code:
+  ```bash
+  jenkins ALL=(ALL:ALL) NOPASSWD:ALL
+  ```
+  Check that this worked by changing to jenkins user and running sudo command:
+  ```bash 
+  sudo su - jenkins
+  sudo echo "Hello I'm jenkins using sudo!"
+  exit
+  ```
+* Configure Pipeline with Jenkinsfile on [this repo](https://github.com/Zhal73/QA_Final_Project)
+* Set Environment Variables in **Global Credentials** section
+* Configure a webhook using:
+  
+  ```bash
+  (http://vmIPaddress:8080/github-webhook/)
+  ```
+  
+  Content type:
+  ```bash
+  application/json
+  ```
+  
+  Events:
+  - [x] Just the push event
 
 #### Deployment Process
 
