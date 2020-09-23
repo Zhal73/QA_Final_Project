@@ -94,7 +94,7 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________________________________________________________________________
 ## Future Improvements
-
+For this project, our aim was to deploy the given application. As we didn't write the application itself, it's difficult to indicate what could be improved and where. However, in terms of deployment, we agreed that if given more time to perfect this deployment process, we would implement integration testing. Through the use of selenium, this is a way of ensuring that every aspect of the application is accounted for, and that there are no faults within the application itself.
 _________________________________________________________________________________________________________________________________________________________________
 ## Honorable Mentions
 * QA's own Luke Benson & Harry Volker - Trainers
