@@ -41,7 +41,7 @@ In short, **you will be expected to deploy this application.**
 ### Proposed Solution
 Our team's approach to this task was agile-driven and as efficient as possible. After assigning roles within the team, we were designated tasks that played to our strengths; for example, if a team member was particularly confident using Kuberentes, they were happily assigned that task. This planning made the project as efficient as it was, this is evident as Sprint 1 was actually completed earlier than we had previously imagined. 
 
-Incorporating agile fundamentals within this project was like second nature, almost instinctive. The planning process set out a clear plan, however this was of course adaptable and we were aware and prepared for the high possibility that this plan was to change as the project developed.
+Incorporating agile fundamentals within this project was like second nature, almost instinctive. The planning process set out a clear plan, however this was of course adaptable and we were aware of, and prepared for the high possibility that this plan was to change as the project developed.
 
 
 ### MoSCoW Prioritisation
