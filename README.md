@@ -1,6 +1,21 @@
 # Spring Pet Clinic - QA Final Project
 _________________________________________________________________________________________________________________________________________________________________
 ## Index
+* [Project Brief](#the-project-brief)
+  - [Project Requirements](#requirements)
+  - [Proposed Solution](#proposed-solution)
+  - [MoSCoW](#moscow-prioritisation)
+* [Architecture](#architecture)
+  - [Project Tracking](#project-tracking)
+  - [Risk Assessment](#risk-assessment)
+  - [CI Pipeline](#ci-pipeline)
+  - [AWS Pipeline](#aws-pipeline)
+  
+* [Deployment](#application-deployment-process)
+* [Future Improvements](#future-improvements)
+* [Honorable Mentions](#honorable-mentions)
+* [Authors](#authors)
+
 
 _________________________________________________________________________________________________________________________________________________________________
 ## The Project Brief
