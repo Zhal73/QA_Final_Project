@@ -99,8 +99,6 @@ Our team decided to not tamper with the tests as the MVP is the priority, once t
 
 _________________________________________________________________________________________________________________________________________________________________
 ## Application Deployment Process
-### Technologies Used and Overview of Development
-
 #### Prerequisites
 
 #### Installation
