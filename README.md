@@ -39,7 +39,9 @@ In short, **you will be expected to deploy this application.**
 - Running costs. What are your monthly estimates and can they be improved?
 
 ### Proposed Solution
-Our team's approach to this task was agile-driven and as efficient as possible. After assigning roles within the team
+Our team's approach to this task was agile-driven and as efficient as possible. After assigning roles within the team, we were designated tasks that played to our strengths; for example, if a team member was particularly confident using Kuberentes, they were happily assigned that task. This planning made the project as efficient as it was, this is evident as Sprint 1 was actually completed earlier than we had previously imagined. 
+
+Incorporating agile fundamentals within this project was like second nature, almost instinctive. The planning process set out a clear plan, however this was of course adaptable and we were aware and prepared for the high possibility that this plan was to change as the project was developed. 
 
 ### MoSCoW Prioritisation
 
@@ -54,7 +56,7 @@ ________________________________________________________________________________
     
   ![](/images/Final-Project-First-Jira-Board.png)
     
-    The initial sprint was designed to deploy the application itself, each member of the team was assigned a particular task and there were 3 standups a day in order to ensure that all tasks were being completed thoroughly and to the best of the team's ability. 
+     The initial sprint was designed to deploy the application itself, each member of the team was assigned a particular task and there were 3 standups a day in order to ensure that all tasks were being completed thoroughly and to the best of the team's ability. 
     
   - After the first sprint had been completed, with the deployment of the application fully configured, sprint 2 was intialised, which looked like this:
   
