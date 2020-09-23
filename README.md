@@ -52,13 +52,13 @@ ________________________________________________________________________________
   - The Jira Board was essentially the backbone of this project. It defined all tasks, which tasks should be completed when (via the use of sprints) and frequent 
     checks ensure that tasks weren't forgotten or missed. We first intialised the first sprint which looked like this:
     
-    **Insert photo**
+  ![](/images/Final-Project-First-Jira-Board.png)
     
     The intial sprint was designed to deploy the application itself, each member of the team was assigned a particular task and there were 3 standups a day in order to ensure that all tasks were being completed thoroughly and to the best of the team's ability. 
     
   - After the first sprint had been completed, with the deployment of the application fully configured, sprint 2 was intialised, which looked like this:
   
-    **Insert photo**
+    ![](/images/secondsprint.png)
   
     This sprint included the in-depth analysis of the final project. Once the deployment had been successful, each step had to be documented in order to show not only the process, but the progress that the team made during the course of this project. 
     
@@ -72,13 +72,11 @@ ________________________________________________________________________________
 
 ### CI Pipeline
 
-![](https://drive.google.com/uc?export=view&id=1tN0Lu16VhhErk-Abz2I1TVXINY-JMZdy)
+![](/images/FP-Pipeline.jpg)
 
 ### AWS Pipeline
 
-
-![](https://drive.google.com/uc?export=view&id=1a71ImepL7YZ1mpzU56QGaEWrG0ZiZvzS)
-
+![](/images/AWS Infrastructure.png)
 _________________________________________________________________________________________________________________________________________________________________
 
 ## Testing
