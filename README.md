@@ -10,6 +10,8 @@ ________________________________________________________________________________
   - [Risk Assessment](#risk-assessment)
   - [CI Pipeline](#ci-pipeline)
   - [AWS Pipeline](#aws-pipeline)
+  - [Kubernetes Cluster](#kubernetes-cluster)
+
   
 * [Testing](#testing)
 * [Deployment](#application-deployment-process)
@@ -52,8 +54,6 @@ This acronymical form of documentation was used to order tasks and to initially 
 _________________________________________________________________________________________________________________________________________________________________
 ## Architecture
 
-![](/images/architecture.jpg)
-
 ### Project Tracking
 * [Jira](https://omris-elda.atlassian.net/jira/software/projects/QFP/boards/7/backlog) - Project Tracking
   - The Jira Board was essentially the backbone of this project. It defined all tasks, which tasks should be completed when (via the use of sprints) and frequent 
@@ -90,6 +90,12 @@ Here is a diagram of the CI Pipeline that the deployment process followed:
 This is an visual representation of the infrastructure that was created using AWS:
 
 ![](/images/AWS_Infrastructure.png)
+
+### Kubernetes Cluster
+
+This is an illustration of the Kubernetes Cluster used in the project:
+
+![](/images/architecture.jpg)
 _________________________________________________________________________________________________________________________________________________________________
 
 ## Testing
