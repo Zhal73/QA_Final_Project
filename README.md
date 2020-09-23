@@ -47,7 +47,7 @@ Incorporating agile fundamentals within this project was like second nature, alm
 ### MoSCoW Prioritisation
 This acronymical form of documentation was used to order tasks and to initially meet the MVP. It's used to ensure that the essential requirements are met, so that further development can take place. The prioritisation was as follows:
 
-**Insert photo**
+ ![](/images/Moscow.JPG)
 _________________________________________________________________________________________________________________________________________________________________
 ## Architecture
 
