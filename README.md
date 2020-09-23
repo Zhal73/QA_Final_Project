@@ -72,14 +72,12 @@ ________________________________________________________________________________
 
 ### CI Pipeline
 
-**Insert photo**
-
-
 ![](https://drive.google.com/uc?export=view&id=1tN0Lu16VhhErk-Abz2I1TVXINY-JMZdy)
 
 ### AWS Pipeline
 
-**Insert photo**
+
+![](https://drive.google.com/uc?export=view&id=1a71ImepL7YZ1mpzU56QGaEWrG0ZiZvzS)
 
 _________________________________________________________________________________________________________________________________________________________________
 
