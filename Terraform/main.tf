@@ -15,6 +15,7 @@ module "aws_security_group" {
 
 module "aws_eks_cluster" {
   source                 = "./KubernetesCluster"
+  cluster-name           = var.cluster-name
   public_subnet_id_1     = module.aws_vpc.public_subnet_id-1
   public_subnet_id_2     = module.aws_vpc.public_subnet_id-2
   public_subnet_id_3     = module.aws_vpc.public_subnet_id-3
