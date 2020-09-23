@@ -130,19 +130,20 @@ ________________________________________________________________________________
   ```
 * Configure Pipeline with Jenkinsfile on [this repo](https://github.com/Zhal73/QA_Final_Project)
 * Set Environment Variables in **Global Credentials** section
-* Configure a webhook using:
+* Configure a Webhook using:
   
   ```bash
   (http://vmIPaddress:8080/github-webhook/)
   ```
   
-  Content type:
+  Content Type:
   ```bash
   application/json
   ```
   
   Events:
   - [x] Just the push event
+
 
 #### Deployment Process
 
