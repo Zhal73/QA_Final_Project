@@ -72,7 +72,7 @@ ________________________________________________________________________________
 
 ### Risk Assessment
 
-**Insert photo**
+![](/images/Risk_assessment.png)
 
 ### CI Pipeline
 
