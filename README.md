@@ -11,6 +11,7 @@ ________________________________________________________________________________
   - [CI Pipeline](#ci-pipeline)
   - [AWS Pipeline](#aws-pipeline)
   
+* [Testing](#testing)
 * [Deployment](#application-deployment-process)
 * [Future Improvements](#future-improvements)
 * [Honorable Mentions](#honorable-mentions)
