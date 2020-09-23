@@ -52,6 +52,8 @@ This acronymical form of documentation was used to order tasks and to initially 
 _________________________________________________________________________________________________________________________________________________________________
 ## Architecture
 
+![](/images/architecture.jpg)
+
 ### Project Tracking
 * [Jira](https://omris-elda.atlassian.net/jira/software/projects/QFP/boards/7/backlog) - Project Tracking
   - The Jira Board was essentially the backbone of this project. It defined all tasks, which tasks should be completed when (via the use of sprints) and frequent 
