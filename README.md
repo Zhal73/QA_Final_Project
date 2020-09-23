@@ -146,7 +146,9 @@ ________________________________________________________________________________
 
 
 #### Deployment Process
+Once the Webhook is configured, the deployment process starts once something is pushed to the GitHub Repo. Assuming all steps have been followed correctly, the pipeline should build the application successfully. This is a fully automated process, so the application builds by the press of a single button (via a WebHook or physically starting the build in Jenkins).
 
+Once the build is successful, and all aspects have been created, the application is up and running! Access the application via the IP Address of the Load Balancer and there you can explore the Spring Pet Clinic.
 _________________________________________________________________________________________________________________________________________________________________
 ## Future Improvements
 For this project, our aim was to deploy the given application. As we didn't write the application itself, it's difficult to indicate what could be improved and where. However, in terms of deployment, we agreed that if given more time to perfect this deployment process, we would implement integration testing. Through the use of Selenium, this is a way of ensuring that every aspect of the application is accounted for, and that there are no faults within the application itself.
