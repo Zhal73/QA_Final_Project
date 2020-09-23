@@ -91,7 +91,7 @@ This is an visual representation of the infrastructure that was created using AW
 _________________________________________________________________________________________________________________________________________________________________
 
 ## Testing
-Due to the nature of the project, the tests were all written previously. As a team, we just had to make sure the testing software was installed, and that all the tests ran and passed successfully. This project used **Maven** as its testing software.
+Due to the nature of the project, the tests were all written previously. As a team, we just had to make sure the testing software was installed, and that all the tests ran and passed successfully. This application used **Maven** as its testing software.
 
 Our team decided to not tamper with the tests as the MVP is the priority, once this had been successful then adjustments can be made to include other forms of testing and an extensive report. However, one of the agile fundamentals is to hvae a working application over a complex one. Thus, we deemed it unwise to edit these tests as they were correctly written, and all of them passed the testing stage anyway - there was no initial need to amend them.
 
