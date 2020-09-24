@@ -45,7 +45,7 @@ Our team's approach to this task was agile-driven and as efficient as possible. 
 
 Incorporating agile fundamentals within this project was like second nature, almost instinctive. The planning process set out a clear plan, however this was of course adaptable and we were aware of, and prepared for the high possibility that this plan was to change as the project developed.
 
-One clear example of this ability to adapt was shown during the first sprint. During the configuration of the Ansible Playbook, the team member assigned to this task was having difficulty installing Terraform using Ansible - after some help from the team, we agreed to install Terraform using a script in the Jenkinsfile, this goes against the original plan, but we were agile and efficient as this decision enabled the Ansible engineer to move on, instead of being stuck on that issue for a while. This issue did not stop the development process as we were able to encounter this error and adjust accordingly - thus, being agile.
+One clear example of this ability to adapt was shown during the first sprint. During the configuration of the Ansible Playbook, the team member assigned to this task was having difficulty installing Terraform using Ansible - after some help from the team, we agreed to install Terraform using a script in the Jenkinsfile. This went against the original plan, but we were agile and efficient as this decision allowed the Ansible engineer to move on, instead of being stuck on that issue for a while. This complication did not stop the development process as we were able to encounter this error and adjust accordingly - thus, being agile.
 
 
 ### MoSCoW Prioritisation
