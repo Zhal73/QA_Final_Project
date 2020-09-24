@@ -14,12 +14,9 @@ services:
     image: qajulyteam2/pet-clinic-rest
     build: ./spring-petclinic-rest
     ports:
-      - target: 9966      
+      - target: 9966
         published: 9966
-        protocol: tcp  
-    environment:
-      DB_URI: ${DB_URI}
-      DB_PASSWORD: ${DB_PASSWORD}
+        protocol: tcp
   frontend:
     image: qajulyteam2/pet-clinic-client
     build: ./spring-petclinic-angular
