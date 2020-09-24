@@ -17,12 +17,12 @@ spec:
       - name: backend
         image: qajulyteam2/pet-clinic-rest
         env:
-        - name: DB_URI
+        - name: DBURI
           valueFrom:
             secretKeyRef:
               name: credentials
               key: db_uri
-        - name: DB_PASSWORD
+        - name: DBPASSWORD
           valueFrom:
             secretKeyRef:
               name: credentials
