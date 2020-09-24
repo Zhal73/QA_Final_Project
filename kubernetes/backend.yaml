@@ -20,12 +20,12 @@ spec:
         - name: DB_URI
         valueFrom:
           secretKeyRef:
-            name: DB_URI
+            name: credentials
             key: DB_URI
         - name: DB_PASSWORD
         valueFrom:
           secretKeyRef:
-            name: DB_PASSWORD
+            name: credentials
             key: DB_PASSWORD
         ports:
         - containerPort: 9966
