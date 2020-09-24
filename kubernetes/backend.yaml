@@ -18,15 +18,15 @@ spec:
         image: qajulyteam2/pet-clinic-rest
         env:
         - name: DB_URI
-        valueFrom:
-          secretKeyRef:
-            name: credentials
-            key: DB_URI
+          valueFrom:
+            secretKeyRef:
+              name: credentials
+              key: DB_URI
         - name: DB_PASSWORD
-        valueFrom:
-          secretKeyRef:
-            name: credentials
-            key: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: credentials
+              key: DB_PASSWORD
         ports:
         - containerPort: 9966
 ---
