@@ -49,7 +49,7 @@ One clear example of this ability to adapt was shown during the first sprint. Du
 
 
 ### MoSCoW Prioritisation
-This acronymical form of documentation was used to order tasks and to initially meet the MVP. It's used to ensure that the essential requirements are met, so that further development can take place. The prioritisation was as follows:
+This form of documentation was used to order tasks and to initially meet the MVP. It's used to ensure that the essential requirements are met, so that further development can take place. The prioritisation was as follows:
 
  ![](/images/Moscow.JPG)
 _________________________________________________________________________________________________________________________________________________________________
@@ -152,6 +152,8 @@ Once the build is successful, and all aspects have been created, the application
 _________________________________________________________________________________________________________________________________________________________________
 ## Future Improvements
 For this project, our aim was to deploy the given application. As we didn't write the application itself, it's difficult to indicate what could be improved and where. However, in terms of deployment, we agreed that if given more time to perfect this deployment process, we would implement integration testing. Through the use of Selenium, this is a way of ensuring that every aspect of the application is accounted for, and that there are no faults within the application itself.
+
+Furthermore, we agreed that some form of authentication would prove useful, in terms of connecting to the database. It's simply not practical or secure to have the database accessible by anyone - therefore, a login would be required in order to access the data.
 _________________________________________________________________________________________________________________________________________________________________
 ## Honorable Mentions
 * QA's own Luke Benson & Harry Volker - Trainers
