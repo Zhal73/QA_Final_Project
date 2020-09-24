@@ -14,6 +14,10 @@ ________________________________________________________________________________
 
 * [Testing](#testing)
 * [Deployment](#application-deployment-process)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Process](#deployment-process)
+  - [Monitoring](#monitoring-and-costs)
 * [Future Improvements](#future-improvements)
 * [Honorable Mentions](#honorable-mentions)
 * [Authors](#authors)
@@ -149,6 +153,16 @@ ________________________________________________________________________________
 Once the Webhook is configured, the deployment process starts once something is pushed to the GitHub Repo. Assuming all steps have been followed correctly, the pipeline should build the application successfully. This is a fully automated process, so the application builds by the press of a single button (via a WebHook or physically starting the build in Jenkins).
 
 Once the build is successful, and all aspects have been created, the application is up and running! Access the application via the IP Address of the Load Balancer and there you can explore the Spring Pet Clinic.
+
+#### Monitoring and Costs
+In order to monitor the various resources that are used in this project, we set up a few CloudWatch events to monitor aspects such as:
+  - Excessive network traffic (signs of a DDOS attack)
+  - High CPU usage (which could require a new VM to be spun up to help take the load off of the others)
+  - Alarms set when the cost was approaching the budget that was set on a monthly basis
+
+This allowed us to ensure that we're utilizing our resources as effectively as possible with as little wastage as possible.
+
+We also estimated that this project cost us no more than £1 a day, and so the monthly costs should be <£30
 _________________________________________________________________________________________________________________________________________________________________
 ## Future Improvements
 For this project, our aim was to deploy the given application. As we didn't write the application itself, it's difficult to indicate what could be improved and where. However, in terms of deployment, we agreed that if given more time to perfect this deployment process, we would implement integration testing. Through the use of Selenium, this is a way of ensuring that every aspect of the application is accounted for, and that there are no faults within the application itself.
