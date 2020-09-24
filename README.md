@@ -167,7 +167,11 @@ ________________________________________________________________________________
 ## Future Improvements
 For this project, our aim was to deploy the given application. As we didn't write the application itself, it's difficult to indicate what could be improved and where. However, in terms of deployment, we agreed that if given more time to perfect this deployment process, we would implement integration testing. Through the use of Selenium, this is a way of ensuring that every aspect of the application is accounted for, and that there are no faults within the application itself.
 
+We did however attempt to secure the environment variables using a secret.yaml file within Kubernetes. This was to ensure that the application was deployed with the highest level of security we can offer. Unfortunately, this was a function that was not corrected during Sprint 2, and would therefore be added to future improvements. Again, a working application takes priority over a complex one, and this attitude was maintained throughout development.
+
 Furthermore, we agreed that some form of authentication would prove useful, in terms of connecting to the database. It's simply not practical or secure to have the database accessible by anyone - therefore, a login would be required in order to access the data.
+
+
 _________________________________________________________________________________________________________________________________________________________________
 ## Honorable Mentions
 * QA's own Luke Benson & Harry Volker - Trainers
